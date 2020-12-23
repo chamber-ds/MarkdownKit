@@ -46,6 +46,7 @@ open class MarkdownList: MarkdownLevelElement {
     paragraphStyle.firstLineHeadIndent = 0
     paragraphStyle.headIndent = 16
     paragraphStyle.paragraphSpacing = 4
+		paragraphStyle.lineSpacing = 5
     return paragraphStyle
   }
 }
